@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
     config.vm.define "dragn" do |dragn|
         dragn.vm.hostname = "dragncards"
-        dragn.vm.box = "ubuntu/focal64"
+        dragn.vm.box = "bento/ubuntu-20.04"
         #Uncomment this line if running on an arm64 (apple silicon) mac
         #dragn.vm.box = "bento/ubuntu-20.04-arm64"
       #forwarded ports for access from local machine
