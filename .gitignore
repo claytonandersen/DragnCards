@@ -8,3 +8,4 @@ backend/config/releases.exs
 backend/config/prod.secret.exs
 backend/MnesiaCore*
 frontend/src/cardDB/ALeP*
+vagrant/.vagrant/*
